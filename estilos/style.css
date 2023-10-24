@@ -31,10 +31,10 @@ section#login {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
     transition: width .3s, height .3s;
+    transform: translate(-50%,-50%);
 }
 div#imagem{
     display: block;
@@ -61,11 +61,36 @@ form > div.campo {
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
-    margin: 5px 0px;
+    border-radius: 8px;
+    margin: 6px 0px;
+    overflow: hidden;
+    border: 2px solid #5f2c82;
 }
 div.campo >label {
     display: none;
+    
+}
+div.campo > span.material-symbols-outlined {
+    color: white;
+    /* background-color: black; */
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    height: 100%;
+}
+div.campo > input {
+    background-color: #60d2ce;
+    font-size: 1em;
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px; 
+    width: calc(100% - 45px);
+    transform: translateY(-33%);
+}
+div.campo > input:focus-within {
+    background-color: white;
+    border: none;
 }
 
 form > input[type=submit] {
