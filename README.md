@@ -1,4 +1,13 @@
-# projeto-login
- Projeto tela de login
+# Projeto Login
+<p>Status: Finalizado ✅</p>
 
- <a href="https://geilsofaria.github.io/projeto-login/" target="_blank">Link para o projeto</a>
+## Descrição
+ Projeto desenvolvido durante o curso de HTML e CSS. Neste, foram usados estilos, media queries, formulários e hospedagem de sites.
+ 
+## Link para o projeto
+ <a href="https://geilsofaria.github.io/projeto-login/" target="_blank">Clique aqui</a>
+
+## Tecnologias Usadas
+* HTML5
+* CSS3
+ 
